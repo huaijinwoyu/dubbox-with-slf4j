@@ -1,3 +1,15 @@
+# 介绍
+
+本项目是高锦科技目前使用的dubbox
+
+版本2.8.4a
+
+主要工作是替换了默认写死的log4j实现,替换为slf4j协议.
+
+以及默认loggerFactory选择替换为直接选择slf4j协议,自动托管到classpath下实现日志框架.
+
+## 默认介绍
+
 Dubbox now means Dubbo eXtensions. If you know java, javax and dubbo, you know what dubbox is :)
 
 Dubbox adds features like RESTful remoting, Kyro/FST serialization, etc to the popular [dubbo service framework](http://github.com/alibaba/dubbo). It's been used by several projects of [dangdang.com](http://www.dangdang.com), which is one of the major e-commerce companies in China.
