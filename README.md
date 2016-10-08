@@ -1,6 +1,5 @@
 # 介绍
 
-本项目是高锦科技目前使用的dubbox
 
 版本2.8.4a
 
@@ -16,7 +15,7 @@
 本地安装
 mvn clena install -Dmaven.test.skip=true
 
-提交到高锦nexus
+提交到nexus
 mvn deploy -Dmaven.test.skip=true
 
 查看解决jar包依赖问题
